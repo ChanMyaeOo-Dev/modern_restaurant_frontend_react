@@ -1,0 +1,120 @@
+.NavBar {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    position: relative;
+    width: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    z-index: 100;
+  }
+  
+  .NavBar .div {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .NavBar .text-wrapper {
+    color: #6b7280;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .NavBar .div-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .NavBar .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .NavBar .chevron-states {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+  }
+  
+  .NavBar .div-3 {
+    align-items: center;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    position: relative;
+    border-radius: 8px;
+  }
+
+  .NavBar .div-3:active {
+    background-color: #f2f2f2;
+  }
+
+  
+  .NavBar .icon-instance-node {
+    height: 24px !important;
+    position: relative !important;
+    width: 24px !important;
+  }
+  
+  ._Section {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    padding: 8px 16px;
+    position: relative;
+  }
+  
+  ._Section .text-wrapper {
+    color: #1d1f1f;
+    flex: 1;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    line-height: 28px;
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  ._Section .div {
+    color: #3b82f6;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.28px;
+    line-height: 20px;
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  

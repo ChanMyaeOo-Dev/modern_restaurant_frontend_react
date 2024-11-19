@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "category": "autem",
+  "items": [
+    {
+      "id": 7,
+      "name": "eum",
+      "description": "Voluptatem eaque dolore eaque deleniti laborum. Porro est laboriosam atque deleniti et. Pariatur similique illo ipsum voluptas. Ratione commodi doloribus quas vel ut.",
+      "photo": "https://via.placeholder.com/640x480.png/001111?text=voluptatibus",
+      "price": "840.51",
+      "category_id": 3,
+      "category": "autem"
+    },
+    {
+      "id": 8,
+      "name": "exercitationem",
+      "description": "Qui sint ea et nemo repudiandae. Modi in esse et pariatur accusamus maxime delectus. Incidunt excepturi quod nostrum veritatis deleniti voluptatibus.",
+      "photo": "https://via.placeholder.com/640x480.png/004433?text=sit",
+      "price": "246.65",
+      "category_id": 3,
+      "category": "autem"
+    },
+    {
+      "id": 9,
+      "name": "et",
+      "description": "Cupiditate nostrum culpa culpa mollitia corporis facilis qui. Sint possimus illum tenetur non voluptatem optio molestiae est. Eveniet nihil numquam minus consectetur quibusdam adipisci. Optio incidunt totam et sed.",
+      "photo": "https://via.placeholder.com/640x480.png/002244?text=doloribus",
+      "price": "809.32",
+      "category_id": 3,
+      "category": "autem"
+    }
+  ]
+}

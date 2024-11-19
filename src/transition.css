@@ -1,0 +1,19 @@
+.push-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  .push-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .push-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .push-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 300ms, transform 300ms;
+  }
+  

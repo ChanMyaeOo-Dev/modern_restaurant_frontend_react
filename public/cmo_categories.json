@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "name": "laudantium",
+      "imageUrl": "https://via.placeholder.com/640x480.png/000011?text=non"
+    },
+    {
+      "id": 2,
+      "name": "voluptatem",
+      "imageUrl": "https://via.placeholder.com/640x480.png/005566?text=officia"
+    },
+    {
+      "id": 3,
+      "name": "architecto",
+      "imageUrl": "https://via.placeholder.com/640x480.png/00aa11?text=sunt"
+    },
+    {
+      "id": 4,
+      "name": "ut",
+      "imageUrl": "https://via.placeholder.com/640x480.png/007755?text=reiciendis"
+    },
+    {
+      "id": 5,
+      "name": "enim",
+      "imageUrl": "https://via.placeholder.com/640x480.png/007700?text=et"
+    },
+    {
+      "id": 6,
+      "name": "vel",
+      "imageUrl": "https://via.placeholder.com/640x480.png/00cc77?text=atque"
+    },
+    {
+      "id": 7,
+      "name": "dolorem",
+      "imageUrl": "https://via.placeholder.com/640x480.png/0099ff?text=accusamus"
+    },
+    {
+      "id": 8,
+      "name": "perferendis",
+      "imageUrl": "https://via.placeholder.com/640x480.png/00cc88?text=quo"
+    },
+    {
+      "id": 9,
+      "name": "odio",
+      "imageUrl": "https://via.placeholder.com/640x480.png/00ee33?text=sed"
+    },
+    {
+      "id": 10,
+      "name": "dolor",
+      "imageUrl": "https://via.placeholder.com/640x480.png/007788?text=eum"
+    }
+  ]
+}
