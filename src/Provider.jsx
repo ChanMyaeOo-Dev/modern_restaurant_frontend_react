@@ -14,6 +14,7 @@ import {
 import { CartProvider } from "./context/CartContext";
 import { AnimatePresence, motion } from "framer-motion";
 import { TableProvider } from "./context/TableContext";
+import FeedBack from "./pages/feedback";
 
 const Provider = () => {
   const location = useLocation();
@@ -66,6 +67,14 @@ const Provider = () => {
               element={
                 <PageWrapper pageTransition={pageTransition}>
                   <OrderDetail />
+                </PageWrapper>
+              }
+            />
+            <Route
+              path="/table/:tableNo/feedback"
+              element={
+                <PageWrapper pageTransition={pageTransition}>
+                  <FeedBack />
                 </PageWrapper>
               }
             />
