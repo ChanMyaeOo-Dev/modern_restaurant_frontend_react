@@ -31,6 +31,9 @@ const useFetch = (url, apiCallBody) => {
                 else if (url.includes('table_orders')) {
                     response = await axios.post(`${API_URL}/${url}`, apiCallBody);
                 }
+                else if (url.includes('feedback_post')) {
+                    response = await axios.post(`${API_URL}/${url}`, apiCallBody);
+                }
                 else {
                     response = await axios.get(`${process.env.PUBLIC_URL}${url}`);
                 }

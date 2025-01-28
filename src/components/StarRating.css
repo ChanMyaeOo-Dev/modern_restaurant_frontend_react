@@ -1,0 +1,8 @@
+.star_rating span{
+    display: flex;
+    gap: 16px;
+}
+
+.star_rating span span{
+    color: gainsboro;
+}
