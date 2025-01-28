@@ -3,7 +3,7 @@ import Navigation from "../components/Navigation";
 import CartBody from "../components/CartBody";
 import OrderFooter from "../components/OrderFooter";
 import useFetch from "../hooks/useFetch";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, redirect } from "react-router-dom";
 import Loading from "../components/Loading/Loading";
 import axios from "axios";
 import { API_URL } from "../services/API_URL";
@@ -24,21 +24,39 @@ const Cart = () => {
       setCart(cartData.carts);
     }
   }, [cartData]);
-
   const handlePlaceOrder = () => {
     axios
-      .post(`${API_URL}/orders`, {
-        table_id: tableNo,
+      .post(`${API_URL}/make_payment`, {
+        amount: "20000",
       })
       .then((response) => {
-        console.log("Data sent successfully:", response.data);
+        // Ensure the redirect URL is valid
+        if (response.data.redirect_url) {
+          window.location.href = response.data.redirect_url; // Use window.location.href for redirection
+        } else {
+          console.error("Redirect URL not found in response");
+        }
       })
       .catch((error) => {
-        alert("Error sending data:", error);
+        alert("Error sending data: " + error); // Corrected alert message
       });
 
-    navigate(`/table/${tableNo}`);
+    // navigate(`/table/${tableNo}`);
   };
+  // const handlePlaceOrder = () => {
+  //   axios
+  //     .post(`${API_URL}/orders`, {
+  //       table_id: tableNo,
+  //     })
+  //     .then((response) => {
+  //       console.log("Data sent successfully:", response.data);
+  //     })
+  //     .catch((error) => {
+  //       alert("Error sending data:", error);
+  //     });
+
+  //   navigate(`/table/${tableNo}`);
+  // };
 
   const updateCart = async (id, newQuantity) => {
     const data = new URLSearchParams();
