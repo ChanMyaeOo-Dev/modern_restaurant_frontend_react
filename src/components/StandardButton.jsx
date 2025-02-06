@@ -5,7 +5,7 @@ const StandardButton = ({ buttonText, buttonFunction }) => {
     <div
       onClick={buttonFunction}
       style={{
-        width: "auto",
+        width: "100%",
         height: "48px",
         paddingLeft: 32,
         paddingRight: 32,
